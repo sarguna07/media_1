@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.header{
+    display:flex;
+
+}
+.title{
+    display:flex;
+}
+.title >img{
+    margin-top:5px;
+    border :2px solid black;
+}
+.bg-color {
+    background-color: #633fe6;
+}
+.carousel-inner{
+    background-color: rgb(34, 34, 34);
+}
+.carousel-item >img {
+    margin:auto;
+    height:auto;
+    border: 2px solid blue;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    width: 5%;
+    color: black;
+}
+.one{
+    display:flex;
+    justify-content:flex-start;
+   }
+   .two{
+    display: flex;
+    justify-content: flex-end;
+    padding-top:20px;
+}
+.three{
+    display: flex;
+    justify-content: flex-end;
+    padding-top:20px;
+}
+.four{
+    justify-content: flex-start;
+}
+
+
+/* .size{
+    width:110px;
+    height:auto;
+} */
+ @media screen and  (max-width: 768px) {
+    .one{
+        justify-content: center;
+    }
+    .two{
+        padding-top:35px;
+        justify-content: center;
+    }
+    .three{
+        padding-top:40px;
+        justify-content: center;
+    } 
+    .four{
+        justify-content: flex-start;
+    }
+   
+   
+ }
+ @media screen and  (min-width: 768px) {
+    .one{
+        display: flex; 
+    }
+    .two{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .three{
+        display: flex;
+        justify-content: flex-end;
+    } 
+    .four{
+        display: flex;
+        justify-content: center;
+    }
+    .five{
+        padding-top:40px;
+    }
+ }
