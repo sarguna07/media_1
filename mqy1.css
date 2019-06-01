@@ -41,9 +41,9 @@
     background-color:grey;
 
 }
-.row{
+/* .row{
 margin:auto;
-}
+} */
 .one{
     display:flex;
     justify-content:flex-start;
