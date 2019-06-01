@@ -39,7 +39,7 @@
 }
 .footer{
     background-color:grey;
-    display:flex;
+    /* display:flex; */
 }
 .one{
     display:flex;
@@ -53,6 +53,17 @@
     display: flex;
     justify-content: flex-end;
 }
+.five{
+    /* display:flex; */
+    justify-content: flex-end;
+}
+.six{
+    height:60px;
+}
+.seven{
+    border:1px solid black;
+}
+
 
  @media screen and  (max-width: 576px) {
     .one{
@@ -64,6 +75,19 @@
     .three{
         justify-content: center;
     } 
+    .five{
+        justify-content:center;
+    }
+    .six{
+        height:50px;
+    }
+    .seven{
+        padding-top:10px;
+       border:none;
+    }
+    .eight{
+        padding-top:10px;
+    }
  }
  @media screen and  (min-width: 576px) {
     .one{
@@ -80,6 +104,15 @@
     .four{
         display: flex;
         justify-content: center;
+    }
+    .five{
+        justify-content:flex-end;
+    }
+    .six{
+       height:70px;
+    }
+    .seven{
+        border:1px solid black;
     }
  }
  
