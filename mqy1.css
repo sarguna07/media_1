@@ -21,7 +21,7 @@
         height: 100%;
     }
 .carousel-item >img {
-    /* margin:auto; */
+   
     height:auto;
     border: 2px solid blue;
 }
@@ -39,7 +39,10 @@
 }
 .footer{
     background-color:grey;
-    /* display:flex; */
+
+}
+.row{
+margin:auto;
 }
 .one{
     display:flex;
@@ -54,7 +57,7 @@
     justify-content: flex-end;
 }
 .five{
-    /* display:flex; */
+    
     justify-content: flex-end;
 }
 .six{
