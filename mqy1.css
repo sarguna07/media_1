@@ -5,6 +5,9 @@
 .space{
     padding:5px;
 }
+.head{
+    margin:10px;
+}
 .title{
     display:flex;
 }
@@ -13,44 +16,32 @@
     border :2px solid black;
 }
 .bg-color {
-    background-color: #633fe6;
+    background-color: #e1dfe9;
 }
 .carousel-inner img {
-
-        width: 100%;
-        height: 100%;
+     width: 100%;
+     height: 100%;
     }
 .carousel-item >img {
-   
     height:auto;
     border: 2px solid blue;
 }
-.carousel-control-next, .carousel-control-prev {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    width: 5%;
-    color: black;
-}
 .card{
     border: 1px solid rgb(66, 64, 64);
-    box-shadow: 5px 3px 5px 5px grey;
+    box-shadow: 1px 1px 1px 1px grey;
 }
 .footer{
     background-color:grey;
-
 }
-/* .row{
-margin:auto;
-} */
 .one{
     display:flex;
     justify-content:flex-start;
+    
 }
 .two{
     display: flex;
     justify-content: flex-end;
+    padding-top: 5px;
 }
 .three{
     display: flex;
@@ -66,6 +57,15 @@ margin:auto;
 .seven{
     border:1px solid black;
 }
+.nine{
+    margin-top:50px;
+    border-top:1px solid black;
+    padding-top:15px;
+}
+.ten{
+    padding-left:40px;
+}
+
 
 
  @media screen and  (max-width: 576px) {
@@ -91,6 +91,7 @@ margin:auto;
     .eight{
         padding-top:10px;
     }
+   
  }
  @media screen and  (min-width: 576px) {
     .one{
@@ -117,5 +118,14 @@ margin:auto;
     .seven{
         border:1px solid black;
     }
+    .nine{
+        margin-top:50px;
+        border-top:1px solid black;
+        padding-top:15px;
+    }
+    .ten{
+        padding-left:110px;
+    }
+   
  }
  
